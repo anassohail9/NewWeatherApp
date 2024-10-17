@@ -1,0 +1,12 @@
+<div class="settings">
+    <div>
+        <h3>Settings</h3>
+        <ul>
+          <li><input type="text" placeholder="Default city" [(ngModel)]="defaultCityName" (keyup.enter)="onDefaultCityNameChanged()"> </li>
+          <li><input type="checkbox" [(ngModel)]="feature2"> Feature 2</li>
+          <li><input type="checkbox" [(ngModel)]="feature1"> Feature 1</li>
+        </ul>
+        <button (click)="applySettings()">Apply</button>
+        <button (click)="goBack()">Back</button>
+      </div>
+</div>

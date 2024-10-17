@@ -1,0 +1,8 @@
+.settings-button {
+    background-color: light-green;
+    padding: 0px;
+}
+
+.btn:hover {
+    background-color: green;
+}
